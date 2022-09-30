@@ -64,6 +64,16 @@ client.on("message", async (message) => {
     }
 });
 
-client.login("MTAyNTM5Njc1OTUwMzA1MjgzMQ.GG0hv8.Rg9XkQlT_CAM1R2dtwlYAFqrXpRZMGC6pP696Q");
+const fs = require('fs');
+
+fs.readFile('/Users/ifeel/Desktop/DiscordToken/token.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+});
+
+client.login(data);
 console.clear();
 console.info("Activated.")
