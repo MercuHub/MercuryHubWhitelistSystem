@@ -75,6 +75,6 @@ client.on("message", async (message) => {
     }
 });
 
-client.login("YOUR_BOT_TOKEN");
+client.login("MTAyNTM5Njc1OTUwMzA1MjgzMQ.GbtZNi.WsX-ZACPAQ1hdul5ZO4T8Sw-2TAPJdQjtJC3sU");
 console.clear();
 console.info("Activated.")
