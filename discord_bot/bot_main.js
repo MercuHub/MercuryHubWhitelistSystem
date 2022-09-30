@@ -64,6 +64,6 @@ client.on("message", async (message) => {
     }
 });
 
-client.login("MTAyNTM5Njc1OTUwMzA1MjgzMQ.Gx5c3N.vIRwhLfQEAXedSW79WvF_9bIUMqiokOl1izlG8");
+client.login("MTAyNTM5Njc1OTUwMzA1MjgzMQ.GG0hv8.Rg9XkQlT_CAM1R2dtwlYAFqrXpRZMGC6pP696Q");
 console.clear();
 console.info("Activated.")
