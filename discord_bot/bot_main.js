@@ -77,4 +77,4 @@ fs.readFile('/Users/ifeel/Desktop/DiscordToken/token.txt', 'utf8', (err, data) =
 });
 
 console.clear();
-console.info("Whitelist bot activated.")
+console.info("Logged in.")
