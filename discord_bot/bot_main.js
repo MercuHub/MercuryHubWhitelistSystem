@@ -72,8 +72,9 @@ fs.readFile('/Users/ifeel/Desktop/DiscordToken/token.txt', 'utf8', (err, data) =
     return;
   }
   console.log(data);
+
+  client.login(data);
 });
 
-client.login(data);
 console.clear();
 console.info("Activated.")
