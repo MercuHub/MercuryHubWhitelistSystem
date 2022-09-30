@@ -1,4 +1,4 @@
-    <url>http://maven.apache.org</url>
+    <project>http://maven.apache.org</project>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
